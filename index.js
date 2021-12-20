@@ -64,6 +64,6 @@ const saveFile = async (file) => {
 };
 
 
-listener = app.listen(3000)
 
-console.log("server start: http://localhost:" + listener.address().port + "/")
+
+module.exports = app;
