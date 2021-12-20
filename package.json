@@ -1,0 +1,15 @@
+{
+  "name": "file-manage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
